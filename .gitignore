@@ -1,0 +1,36 @@
+# --- Data & confidential material (NEVER commit) ---
+dataset/
+data/
+*.nii
+*.nii.gz
+*.dcm
+index*.csv
+*_index.csv
+
+# --- Trained models, runs, logs (large, data-derived) ---
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
